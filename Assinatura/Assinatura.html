@@ -108,6 +108,7 @@ $('#textEmail').html( $(this).val() );
 $('#cargo[type=text]').bind('input propertychange', function() {
 
 $('#textCargo').html( $(this).val().toUpperCase() );
+$('#textCargo').css('font-style', 'italic');
 
 });
 
